@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "nombre": "Spider-Man",
+        "alias": "Peter Parker",
+        "poderes": ["Agilidad sobrehumana", "Fuerza sobrehumana", "Sentido arácnido"],
+        "descripcion": "Spider-Man es un superhéroe creado por Stan Lee y Steve Ditko. Peter Parker adquiere habilidades arácnidas después de ser mordido por una araña radiactiva.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 2,
+        "nombre": "Iron Man",
+        "alias": "Tony Stark",
+        "poderes": ["Genio nivel superhumano", "Traje de Iron Man"],
+        "descripcion": "Tony Stark es un multimillonario y genio inventor que crea un traje blindado de alta tecnología para convertirse en Iron Man.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 3,
+        "nombre": "Captain America",
+        "alias": "Steve Rogers",
+        "poderes": ["Fuerza y agilidad sobrehumanas", "Escudo indestructible"],
+        "descripcion": "Steve Rogers es un super soldado que lucha por la justicia y la libertad. Su escudo es uno de los objetos más icónicos de Marvel.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 4,
+        "nombre": "Thor",
+        "alias": "Thor Odinson",
+        "poderes": ["Fuerza sobrehumana", "Manipulación del clima", "Martillo Mjolnir"],
+        "descripcion": "Thor es el dios del trueno y príncipe de Asgard. Posee un martillo encantado llamado Mjolnir que le otorga poderes extraordinarios.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 5,
+        "nombre": "Hulk",
+        "alias": "Bruce Banner",
+        "poderes": ["Fuerza sobrehumana", "Regeneración celular"],
+        "descripcion": "Bruce Banner es un científico que, debido a la radiación gamma, se transforma en Hulk, una criatura con una fuerza descomunal.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 6,
+        "nombre": "Black Widow",
+        "alias": "Natasha Romanoff",
+        "poderes": ["Experta en combate cuerpo a cuerpo", "Maestría en espionaje"],
+        "descripcion": "Natasha Romanoff es una experta espía y luchadora, conocida como Black Widow. Ha sido miembro crucial de los Avengers.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 7,
+        "nombre": "Doctor Strange",
+        "alias": "Stephen Strange",
+        "poderes": ["Manipulación de la realidad", "Hechicería"],
+        "descripcion": "Stephen Strange es un neurocirujano convertido en Hechicero Supremo después de un accidente que dañó sus manos. Es el guardián de las artes místicas.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 8,
+        "nombre": "Black Panther",
+        "alias": "T'Challa",
+        "poderes": ["Fuerza sobrehumana", "Agilidad", "Tecnología avanzada de Wakanda"],
+        "descripcion": "T'Challa es el rey de Wakanda y se convierte en el protector de su nación como Black Panther. Posee habilidades mejoradas y tecnología avanzada.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 9,
+        "nombre": "Scarlet Witch",
+        "alias": "Wanda Maximoff",
+        "poderes": ["Manipulación de la realidad", "Telequinesis"],
+        "descripcion": "Wanda Maximoff, también conocida como Scarlet Witch, es una poderosa mutante con habilidades para alterar la realidad y manipular el caos.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 10,
+        "nombre": "Vision",
+        "alias": "Vision",
+        "poderes": ["Fuerza sobrehumana", "Inteligencia artificial avanzada"],
+        "descripcion": "Vision es un sintezoide con inteligencia artificial creado por Ultron. Se une a los Avengers y desarrolla emociones y conciencia propia.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 11,
+        "nombre": "Ant-Man",
+        "alias": "Scott Lang",
+        "poderes": ["Capacidad de encogerse", "Comunicación con hormigas"],
+        "descripcion": "Scott Lang es un ladrón reformado que se convierte en Ant-Man tras heredar un traje que le otorga la capacidad de encogerse y aumentar su fuerza.",
+        "grupo": "Avengers",
+        "universo": "Marvel"
+    },
+    {
+        "id": 12,
+        "nombre": "Wolverine",
+        "alias": "Logan",
+        "poderes": ["Regeneración celular", "Esqueleto y garras de adamantium"],
+        "descripcion": "Wolverine es un mutante con un esqueleto recubierto de adamantium y garras retráctiles. Es conocido por su actitud salvaje y su regeneración.",
+        "grupo": "X-Men",
+        "universo": "Marvel"
+    },
+    {
+        "id": 13,
+        "nombre": "Storm",
+        "alias": "Ororo Munroe",
+        "poderes": ["Control del clima", "Vuelo"],
+        "descripcion": "Ororo Munroe, también conocida como Storm, es una mutante que puede controlar el clima. Ha sido líder de los X-Men en diversas ocasiones.",
+        "grupo": "X-Men",
+        "universo": "Marvel"
+    },
+    {
+        "id": 14,
+        "nombre": "Magneto",
+        "alias": "Erik Lehnsherr",
+        "poderes": ["Manipulación magnética"],
+        "descripcion": "Erik Lehnsherr, conocido como Magneto, es un poderoso mutante capaz de controlar los campos magnéticos. Es uno de los enemigos principales de los X-Men.",
+        "grupo": "Hermandad de Mutantes",
+        "universo": "Marvel"
+    },
+    {
+        "id": 15,
+        "nombre": "Jean Grey",
+        "alias": "Jean Grey",
+        "poderes": ["Telepatía", "Telequinesis"],
+        "descripcion": "Jean Grey es una mutante con poderes telepáticos y telequinéticos. Es uno de los miembros más poderosos de los X-Men y ha albergado en su interior la Fuerza Fénix.",
+        "grupo": "X-Men",
+        "universo": "Marvel"
+    },
+    {
+        "id": 16,
+        "nombre": "Superman",
+        "alias": "Clark Kent",
+        "poderes": ["Fuerza sobrehumana", "Vuelo", "Visión calorífica"],
+        "descripcion": "Superman es un kryptoniano que se convierte en el héroe más poderoso de la Tierra. Adopta la identidad de Clark Kent para vivir entre los humanos.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 17,
+        "nombre": "Batman",
+        "alias": "Bruce Wayne",
+        "poderes": ["Inteligencia extraordinaria", "Habilidades de detective", "Maestría en combate"],
+        "descripcion": "Bruce Wayne es un multimillonario que se convierte en Batman, un vigilante que lucha contra el crimen en Gotham City tras presenciar el asesinato de sus padres.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 18,
+        "nombre": "Wonder Woman",
+        "alias": "Diana Prince",
+        "poderes": ["Fuerza sobrehumana", "Velocidad", "Agilidad", "Reflejos mejorados"],
+        "descripcion": "Wonder Woman es una princesa amazona y embajadora de Themyscira. Es una de las heroínas más poderosas del Universo DC.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 19,
+        "nombre": "Flash",
+        "alias": "Barry Allen",
+        "poderes": ["Super velocidad", "Viaje en el tiempo"],
+        "descripcion": "Barry Allen es un científico que adquiere poderes de velocidad después de ser alcanzado por un rayo y ser bañado en productos químicos. Se convierte en Flash, el velocista escarlata.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 20,
+        "nombre": "Aquaman",
+        "alias": "Arthur Curry",
+        "poderes": ["Fuerza sobrehumana", "Comunicación con criaturas marinas", "Natación rápida"],
+        "descripcion": "Arthur Curry es el rey de Atlantis y defensor de los mares como Aquaman. Tiene una fuerte conexión con la vida marina y posee habilidades acuáticas.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 21,
+        "nombre": "Green Lantern",
+        "alias": "Hal Jordan",
+        "poderes": ["Anillo de poder", "Creación de construcciones de energía"],
+        "descripcion": "Hal Jordan es un piloto de pruebas que se convierte en Green Lantern, miembro del Cuerpo de Green Lanterns, un grupo intergaláctico de protectores.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 22,
+        "nombre": "Cyborg",
+        "alias": "Victor Stone",
+        "poderes": ["Fuerza y resistencia sobrehumanas", "Interfaz tecnológica"],
+        "descripcion": "Victor Stone es un atleta convertido en mitad máquina y mitad humano después de un accidente. Se convierte en Cyborg, un héroe con habilidades tecnológicas avanzadas.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 23,
+        "nombre": "Green Arrow",
+        "alias": "Oliver Queen",
+        "poderes": ["Maestría en arquería", "Habilidades de combate cuerpo a cuerpo"],
+        "descripcion": "Oliver Queen es un arquero habilidoso que lucha contra el crimen en Star City como Green Arrow. Es conocido por su habilidad con el arco y sus ideales de justicia social.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 24,
+        "nombre": "Martian Manhunter",
+        "alias": "J'onn J'onzz",
+        "poderes": ["Fuerza sobrehumana", "Telepatía", "Transformación de forma"],
+        "descripcion": "J'onn J'onzz es el último sobreviviente de Marte y miembro de la Liga de la Justicia. Tiene una variedad de habilidades telepáticas y físicas.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 25,
+        "nombre": "Supergirl",
+        "alias": "Kara Zor-El",
+        "poderes": ["Fuerza sobrehumana", "Vuelo", "Visión calorífica"],
+        "descripcion": "Kara Zor-El es la prima de Superman y comparte muchas de sus habilidades. Se convierte en Supergirl para proteger la Tierra y seguir el legado de su primo.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 26,
+        "nombre": "Shazam",
+        "alias": "Billy Batson",
+        "poderes": ["Sabiduría de Salomón", "Fuerza de Hércules", "Aguante de Atlas", "Poder de Zeus", "Valor de Aquiles", "Velocidad de Mercurio"],
+        "descripcion": "Billy Batson es un joven que puede transformarse en un héroe adulto con poderes mágicos al pronunciar la palabra 'Shazam'.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 27,
+        "nombre": "Nightwing",
+        "alias": "Dick Grayson",
+        "poderes": ["Maestría en artes marciales", "Habilidades acrobáticas"],
+        "descripcion": "Dick Grayson es el primer Robin y se convierte en Nightwing, un héroe independiente con habilidades de combate excepcionales y liderazgo.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 28,
+        "nombre": "Batgirl",
+        "alias": "Barbara Gordon",
+        "poderes": ["Inteligencia", "Habilidades de combate", "Maestría en tecnología"],
+        "descripcion": "Barbara Gordon es la hija del Comisario Gordon y se convierte en Batgirl, una heroína que lucha contra el crimen en Gotham City y trabaja junto a Batman.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 29,
+        "nombre": "Zatanna",
+        "alias": "Zatanna Zatara",
+        "poderes": ["Magia", "Hechicería"],
+        "descripcion": "Zatanna Zatara es una poderosa hechicera y miembro de la Liga de la Justicia. Utiliza sus habilidades mágicas para luchar contra el mal y proteger el mundo.",
+        "grupo": "Liga de la Justicia",
+        "universo": "DC"
+    },
+    {
+        "id": 30,
+        "nombre": "Red Hood",
+        "alias": "Jason Todd",
+        "poderes": ["Maestría en combate", "Habilidad con armas"],
+        "descripcion": "Jason Todd es el segundo Robin, que luego se convierte en Red Hood después de ser resucitado. Es un antihéroe que utiliza tácticas más violentas para luchar contra el crimen.",
+        "grupo": "Bat Family",
+        "universo": "DC"
+    }
+]
