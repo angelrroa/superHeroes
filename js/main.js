@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', async (e) => {
 });
 
 async function LoadDataV2() {
-    return await fetch("../data/personajes.json").then(response => response.json());
+    return await fetch("data/personajes.json").then(response => response.json());
 };
 
 
