@@ -1,70 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: "Shadows Into Light", cursive;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Shadows Into Light", cursive;
+  font-style: normal;
 
 }
 
 
 body {
-    background-color: rgba(127, 129, 129, 0.411);
+  background-color: rgba(127, 129, 129, 0.411);
 }
-.searchBox {
-    display: flex;
-    max-width: 230px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    background: #ffffff;
-    border-radius: 50px;
-    position: relative;
-  }
 
-  
-  .searchButton {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    right: 8px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
-    border: 0;
-    display: inline-block;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  }
-  /*hover effect*/
-  button:hover {
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
-    transform: translateY(-3px);
-  }
-  /*button pressing effect*/
-  button:active {
-    box-shadow: none;
-    transform: translateY(0);
-  }
-  
-  .searchInput {
-    border: none;
-    background: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    padding: 24px 46px 24px 26px;
-  }
-  
+.searchBox {
+  display: flex;
+  max-width: 230px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 50px;
+  position: relative;
+}
+
+
+.searchButton {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+  border: 0;
+  display: inline-block;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+/*hover effect*/
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+
+/*button pressing effect*/
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+}
+
 
 nav {
-    padding: 20px;
-    background-color: rgb(163, 45, 45);
-    display: flex;
-    justify-content: center;
+  padding: 20px;
+  background-color: rgb(163, 45, 45);
+  display: flex;
+  justify-content: center;
 }
 
 .card-container {
@@ -79,8 +82,8 @@ nav {
   border-radius: 5px;
   padding: 10px;
   width: 300px;
-  max-width: 100%; 
-  box-sizing: border-box; 
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
@@ -89,16 +92,16 @@ nav {
 }
 
 .card img {
-  width: 100%; 
-  height:80%; 
-  object-fit: cover; 
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
 .card h2 {
   margin-top: 0;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   font-size: 2rem;
 }
 
@@ -115,12 +118,13 @@ nav {
 .card button:hover {
   background-color: #0056b3;
 }
+
 .card-container h2 {
   text-align: center;
-  margin-top: 20px; 
-  margin-bottom: 20px; 
-  color: #333; 
-  width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  width: 100%;
   font-size: 2.5rem;
 }
 
@@ -133,18 +137,53 @@ nav {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
+  margin: auto auto;
+  margin-top: 10px;
   background-color: #fefefe;
-  margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
   max-width: 600px;
   border-radius: 5px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#modal-content {
+  text-align: center;
+}
+
+#modal-content h1 {
+  font-size: 1.5rem;
+
+}
+
+#modal-content img {
+  width: 50%;
+
+  max-width: 100%;
+  height: 70%;
+  margin-bottom: 20px;
+}
+
+#modal-content p {
+  margin-bottom: 10px;
+}
+
+#modal-content ul {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+#modal-content ul li {
+  margin-bottom: 5px;
 }
 
 .close {
@@ -152,6 +191,7 @@ nav {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  align-self: flex-end;
 }
 
 .close:hover,
@@ -164,8 +204,7 @@ nav {
 
 @media screen and (max-width: 600px) {
   .card {
-      width: calc(100% - 20px); 
-      max-width: 100%; 
+    width: calc(100% - 20px);
+    max-width: 100%;
   }
 }
-

@@ -103,7 +103,7 @@ function crearModal(heroe) {
     imagen.src = urlImg;
     contenido.appendChild(imagen);
 
-    let nombreHeroe = document.createElement("h2");
+    let nombreHeroe = document.createElement("h1");
     nombreHeroe.textContent = heroe.nombre;
     contenido.appendChild(nombreHeroe);
 
