@@ -6,41 +6,74 @@ document.addEventListener('DOMContentLoaded', async (e) => {
     const dcContainer = document.getElementById('dc-container');
     let modal = document.getElementById('myModal');
     let span = document.getElementsByClassName("close")[0];
+    let selectorFiltro = document.getElementById("selectFilter");
+    let barraBusqueda = document.getElementById("inputFilter");
 
-  
 
+
+    
+
+    function filtrarCards() {
+        const filtroUniverso = selectorFiltro.value.toLowerCase();
+        const filtroBusqueda = barraBusqueda.value.toLowerCase();
+        const tituloMarvel = document.getElementById("tituloMarvel");
+        const tituloDC = document.getElementById("tituloDC");
+    
+        comicweb.forEach(heroe => {
+            const card = document.getElementById(heroe.id);
+    
+            const cumpleFiltroBusqueda = heroe.nombre.toLowerCase().includes(filtroBusqueda);
+            if(filtroUniverso==='marvel'){
+                tituloDC.style.display='none';
+                tituloMarvel.style.display='block';
+
+            }else if(filtroUniverso==='dc'){
+                tituloMarvel.style.display='none';
+                tituloDC.style.display='block';
+            }
+            if (filtroUniverso === 'todo' || heroe.universo.toLowerCase() === filtroUniverso) {
+                if (cumpleFiltroBusqueda) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
 
     comicweb.forEach(heroe => {
         const card = crearCard(heroe);
+        card.id = heroe.id;
 
         if (heroe.universo === 'Marvel') {
             marvelContainer.appendChild(card);
-
         } else if (heroe.universo === 'DC') {
             dcContainer.appendChild(card);
         }
-
     });
 
-    // comicweb.forEach(heroe => {
-    //     const universoFiltro = selectFilter.value;
-    //     const nombreFiltro = inputFilter.value;
+    selectorFiltro.addEventListener('change', () => {
+        filtrarCards();
+    });
 
-    //     if(universoFiltro == "todo" || heroe.universo == universoFiltro){
-    //         return 
-    //     }
-    // });
+    barraBusqueda.addEventListener('input', () => {
+        filtrarCards();
+    });
+    
+
 
     const verBotones = document.querySelectorAll('[id-heroe]')
 
     verBotones.forEach(verBoton => {
-        verBoton.addEventListener('click',()=>{
+        verBoton.addEventListener('click', () => {
             modal.style.display = "block";
             const idHeroe = Number(verBoton.getAttribute("id-heroe"));
-            const heroe= comicweb.find(heroe => heroe.id === idHeroe);
+            const heroe = comicweb.find(heroe => heroe.id === idHeroe);
             console.log(heroe);
             crearModal(heroe);
-            
+
 
         })
     })
@@ -86,7 +119,7 @@ function crearCard(heroe) {
     card.appendChild(title);
     card.appendChild(boton);
 
-    
+
     return card;
 }
 
@@ -97,7 +130,7 @@ function crearModal(heroe) {
     contenido.innerHTML = '';
 
     let nombre = heroe.nombre.toLowerCase().replace(/\s+/g, '');
-    let urlImg = `storage/img/${nombre}.jpeg`
+    let urlImg = `storage/img/${nombre}.jpeg`;
 
     let imagen = document.createElement("img");
     imagen.src = urlImg;
@@ -127,3 +160,4 @@ function crearModal(heroe) {
     grupoElement.textContent = "Grupo: " + heroe.grupo;
     contenido.appendChild(grupoElement);
 }
+
