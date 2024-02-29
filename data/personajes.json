@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Spider-Man",
+        "nombre": "Spider Man",
         "alias": "Peter Parker",
         "poderes": ["Agilidad sobrehumana", "Fuerza sobrehumana", "Sentido arácnido"],
         "descripcion": "Spider-Man es un superhéroe creado por Stan Lee y Steve Ditko. Peter Parker adquiere habilidades arácnidas después de ser mordido por una araña radiactiva.",
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "nombre": "Ant-Man",
+        "nombre": "Ant Man",
         "alias": "Scott Lang",
         "poderes": ["Capacidad de encogerse", "Comunicación con hormigas"],
         "descripcion": "Scott Lang es un ladrón reformado que se convierte en Ant-Man tras heredar un traje que le otorga la capacidad de encogerse y aumentar su fuerza.",

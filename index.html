@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="js/main.js" defer></script>
 
     <title>SuperHeroes</title>
 </head>
+
 <body>
     <nav class="navigation">
         <div class="filtros">
-            <form action="">
-                <select name="universos" id="universos">
-                    <option value="dos">Seleccione una opción...</option>
-                    <option value="Marvel">MARVEL</option>
-                    <option value="DC">DC</option>
-                </select>
-                <input type="text" placeholder="Buscar personaje...">
-                <i class='bx bx-search-alt'></i>
-            </form>
+            <select id="selectFilter">
+                <option value="todo">Todos</option>
+                <option value="Marvel">Marvel</option>
+                <option value="DC">DC</option>
+            </select>
+            <input type="text" id="inputFilter" placeholder="Busqueda por nombre...">
         </div>
     </nav>
     <div class="container">
-        <h1>UNIVERSO MARVEL</h1>
-        <div class="cards marvel">
-            <div class="card">
-                <img src="" alt="">
-                <div class="desc">
-                    <p>Nombre</p>
-                    <button>Ver</button>
-                </div>
-            </div>
+        <div class="card-container target" id="marvel-container">
+            <h2>UNIVERSO MARVEL</h2>
+
         </div>
-        <h1>UNIVERSO DC</h1>
-        <div class="cards dc">
-            <div class="card">
-                <img src="" alt="">
-                <div class="desc">
-                    <p>Nombre</p>
-                    <button>Ver</button>
-                </div>
-            </div>
+        <div class="card-container target" id="dc-container">
+            <h2>UNIVERSO DC</h2>
         </div>
     </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modal-content">
+
+          </div>
+        </div>
+      </div>
+      
 </body>
+
 </html>
